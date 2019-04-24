@@ -1,0 +1,50 @@
+.content {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+.next-button {
+  background-color: #100e17;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 19px;
+  border: none;
+  border-radius: 47px;
+  float: right;
+  cursor: pointer;
+  color: white;
+}
+
+.restart-button {
+  background-image: linear-gradient(to right, #ff8a00, #da1b60);
+  font-size: 27px;
+  font-weight: bold;
+  padding: 19px;
+  border: none;
+  border-radius: 47px;
+  float: right;
+  cursor: pointer;
+  color: white;
+  z-index: 3;
+}
+
+.next-button:hover {
+  border: 10px solid #fed330;
+  cursor: pointer;
+}
+
+.quiz-header {
+  font-size: 18px;
+  color: #fa7c92;
+  font-weight: bold;
+}
+
+p {
+  display: inline-block;
+  background: black;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 46px;
+  color: #fed330;
+}

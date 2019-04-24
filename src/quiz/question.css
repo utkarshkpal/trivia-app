@@ -1,0 +1,52 @@
+.question {
+  margin: 42px 0;
+  background-color: #fff7c0;
+  border-radius: 32px;
+  padding: 32px;
+  background: #100e17;
+}
+
+.question h3 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "ubuntu-bold";
+  text-align: center;
+}
+
+.question ul {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.question li {
+  font-family: "ubuntu-bold";
+  padding: 16px 8px;
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 47px;
+  width: 39%;
+  margin: 13px 22px 22px 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.question li:hover {
+  border: 10px solid #fed330;
+  cursor: pointer;
+}
+
+.question li.correct {
+  border: 10px solid #20bf6b;
+  cursor: default;
+}
+
+.question li.incorrect {
+  border: 10px solid #eb3b5a;
+}
